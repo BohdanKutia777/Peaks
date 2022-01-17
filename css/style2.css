@@ -1,0 +1,213 @@
+.contentCentre, .section_card, .section_card_heading, .section_card_text, .section_link, .section_banner, .footer-wrap {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #21232E; }
+
+.header {
+  color: #F3F7FA;
+  background: url(../img/m-h-night.jpg);
+  max-width: 100%;
+  height: 580px;
+  background-position-y: 830px;
+  background-position-x: -40px;
+  border-bottom-right-radius: 500px 200px; }
+
+.header-wrap {
+  max-width: 1220px;
+  margin: 0 auto; }
+
+.landing-logo {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 150px;
+  font-family: "Fresca", sans-serif;
+  font-weight: 600; }
+  .landing-logo img {
+    margin-top: 7px;
+    height: 37px;
+    width: 37px; }
+  .landing-logo p {
+    display: inline;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 5px; }
+    .landing-logo p span {
+      text-align: center;
+      font-size: 8px;
+      display: block;
+      font-weight: 400; }
+
+.header_heading {
+  position: relative;
+  font-size: 56px;
+  font-family: 'Source Sans Pro',	sans-serif;
+  padding-top: 50px;
+  font-weight: 700;
+  max-width: 500px;
+  line-height: 55px;
+  z-index: 1; }
+  .header_heading::before {
+    content: "";
+    background-color: #FF4E33;
+    height: 38px;
+    width: 235px;
+    position: absolute;
+    top: 121px;
+    z-index: -1; }
+
+.header_text {
+  padding-top: 40px;
+  font-size: 13px;
+  font-family: "Fresca", sans-serif;
+  letter-spacing: 0.013em;
+  line-height: 1.5em;
+  white-space: pre-line;
+  margin-bottom: 59px; }
+
+.header_button, .section_banner_button {
+  border: none;
+  background-color: #699900;
+  color: white;
+  padding: 10px 35px;
+  font-family: 'Source Sans Pro',	sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 3px; }
+
+.login {
+  color: white;
+  font-family: 'Source Sans Pro',	sans-serif;
+  font-weight: 500;
+  margin-left: 100px; }
+
+.section .section_text {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  font-family: 'Source Sans Pro',	sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  padding-top: 30px;
+  color: #F3F7FA; }
+  .section .section_text::before {
+    content: "";
+    background-color: #FF4E33;
+    height: 38px;
+    width: 150px;
+    position: absolute;
+    top: 608px;
+    z-index: -1;
+    left: 51%; }
+
+.section_card_wrap {
+  max-width: 900px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column; }
+
+.section_card {
+  margin-top: 30px;
+  background-color: #3B3F50;
+  padding: 15px;
+  border-radius: 5px;
+  height: 220px;
+  border: 1px solid #3B3F50; }
+
+.section_card_heading {
+  color: white;
+  font-family: 'Source Sans Pro',	sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  padding: 40px 0 30px 0; }
+
+.section_card_text {
+  padding-left: 75px;
+  padding-right: 50px;
+  font-family: "Fresca", sans-serif;
+  color: #A1C3CE;
+  font-size: 14px; }
+
+.section_link {
+  color: #A1C3CE;
+  font-family: 'Source Sans Pro',	sans-serif;
+  padding-top: 25px;
+  font-size: 13px; }
+
+.section_card_img {
+  height: 225px;
+  border-radius: 5px; }
+
+.section_banner {
+  position: relative;
+  top: 50px;
+  z-index: -2;
+  margin-top: 80px;
+  width: 950px;
+  height: 100px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #dea305, #de7d27, #d05a3c, #b63f4a, #932d52); }
+
+.section_banner_button {
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 290px; }
+
+.section_banner_heading {
+  font-family: 'Source Sans Pro',	sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+  color: #F3F7FA;
+  margin-left: 10px; }
+  .section_banner_heading::before {
+    content: "";
+    background-color: #FF4E33;
+    height: 38px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    z-index: -1;
+    left: 209px; }
+
+.section_banner_text {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Fresca", sans-serif;
+  font-size: 13px;
+  color: #B9C3C9; }
+
+.footer-wrap {
+  padding-top: 70px;
+  position: relative;
+  width: 100%;
+  background-color: #222530;
+  height: 100px;
+  z-index: -3; }
+
+.footer_logo {
+  padding-right: 400px;
+  color: #C0C3CE; }
+
+.footer_text {
+  margin-top: 20px;
+  width: 250px;
+  padding-right: 300px;
+  font-family: "Fresca", sans-serif;
+  font-size: 12px;
+  color: #C0C3CE; }
+
+.footer-cr {
+  margin-top: 50px;
+  color: #C0C3CE;
+  font-family: "Fresca", sans-serif;
+  font-size: 13px;
+  font-weight: 500; }
